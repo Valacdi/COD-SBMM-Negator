@@ -50,10 +50,10 @@
             // gameComboBox
             // 
             gameComboBox.FormattingEnabled = true;
-            gameComboBox.Items.AddRange(new object[] { "Call Of Duty Vanguard", "Call Of Duty Modern Warfare / Warzone Caldera", "Call Of Duty Modern Warfare 2 / Warzone 2.0", "Call Of Duty Modern Warfare 3" });
+            gameComboBox.Items.AddRange(new object[] { "Call Of Duty Vanguard", "Call Of Duty Modern Warfare / Warzone Caldera", "Call Of Duty Modern Warfare 2 / Call Of Duty Modern Warfare 3 / Call Of Duty Black Ops 6" });
             gameComboBox.Location = new Point(12, 27);
             gameComboBox.Name = "gameComboBox";
-            gameComboBox.Size = new Size(397, 23);
+            gameComboBox.Size = new Size(500, 23);
             gameComboBox.TabIndex = 1;
             gameComboBox.SelectedIndexChanged += gameComboBox_SelectedIndexChanged;
             // 
@@ -72,7 +72,7 @@
             regionComboBox.Items.AddRange(new object[] { "United Kingdom and Netherlands", "United Kingdom and Germany", "Germany and France", "France and Netherlands", "Germany and Netherlands", "United States of America", "United Kingdom", "Germany ", "France", "Europe", "Brazil", "Singapore", "East Coast of United States of America", "West Coast of United States of America", "Texas", "Spain", "Italy" });
             regionComboBox.Location = new Point(12, 82);
             regionComboBox.Name = "regionComboBox";
-            regionComboBox.Size = new Size(397, 23);
+            regionComboBox.Size = new Size(500, 23);
             regionComboBox.TabIndex = 3;
             // 
             // label3
